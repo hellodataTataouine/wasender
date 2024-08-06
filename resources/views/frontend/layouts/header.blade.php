@@ -13,9 +13,9 @@
                <div class="col-xl-7 col-lg-7 d-none d-lg-block">
                   <div class="tp-header__main-menu tp-header__black-menu">
                      <nav id="mobile-menu">
-                        <ul>
+                        {{-- <ul>
                            {{ PrintMenu('main-menu') }}
-                        </ul>
+                        </ul> --}}
                      </nav>
                   </div>
                </div>
@@ -52,7 +52,7 @@
                <img src="{{ asset(get_option('primary_data',true)->footer_logo ?? '') }}" alt="">
             </a>
          </div>
-        
+
          <div class="mobile-menu"></div>
          <div class="tpoffcanvas__info">
             <h3 class="offcanva-title">{{ __('Get In Touch') }}</h3>

@@ -13,9 +13,9 @@
                <div class="col-xl-7 col-lg-7 d-none d-lg-block">
                   <div class="tp-header__main-menu tp-header__main-menu1">
                      <nav id="mobile-menu">
-                        <ul>
+                        {{-- <ul>
                           {{ PrintMenu('main-menu') }}
-                        </ul>
+                        </ul> --}}
                      </nav>
                   </div>
                </div>
@@ -94,5 +94,5 @@
          </div>
       </div>
    </div>
-   
+
    <!-- tp-offcanvus-area-end -->
